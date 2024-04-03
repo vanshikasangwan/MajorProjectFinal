@@ -1,0 +1,29 @@
+.grid {
+    display:inline-flex;
+    flex-wrap: wrap;
+    width: 3000px;
+    height: 500px;
+    margin-top: 150px;
+    margin-right: 600px;
+    margin-left: 100px;
+  }
+
+.heading{
+  display: flex;
+  z-index: 1002;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  font-size:40px;
+  font-weight: 500;
+  font-family: fantasy;
+}
+.screen{
+  background: pink;
+  height: 790px;
+  width: 1630px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+}
