@@ -45,7 +45,6 @@ class App extends Component {
         <Routes>
         <Route path="/main" element={<MainPage />} />
         <Route path="/login" element={<Login />} />
-        <Route path = "/home" element ={<App />}/>
         <Route path = "/matchcards" element ={<NewMemoryGame />}/>
         <Route path = "/colourmemory" element ={<NewColourMemory />}/>
         </Routes>
